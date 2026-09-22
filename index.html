@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="المنيو الإلكتروني لجيلاتى الصعيدي - آيس كريم وأرز باللبن وإضافات وأرز فواكه.">
+  <meta property="og:title" content="جيلاتى الصعيدي | المنيو الإلكتروني">
+  <meta property="og:description" content="استعرض منيو جيلاتى الصعيدي بسرعة وسهولة.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#101010">
+  <title>جيلاتى الصعيدي | المنيو الإلكتروني</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="#top" aria-label="جيلاتى الصعيدي - الرئيسية">
+        <img src="assets/logo.png" alt="شعار جيلاتى الصعيدي">
+        <div>
+          <strong>جيلاتى الصعيدي</strong>
+          <span>آيس كريم • أرز باللبن</span>
+        </div>
+      </a>
+      <a class="map-mini" href="https://maps.app.goo.gl/XaCGRaV3Dd72LZtA6" target="_blank" rel="noopener" aria-label="فتح موقع جيلاتى الصعيدي على الخريطة">
+        <span class="icon">⌖</span><span>الموقع</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="آيس كريم جيلاتى الصعيدي أمام البحر"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <span class="eyebrow">ICE CREAM AL SAEIDY</span>
+        <h1>جيلاتى الصعيدي</h1>
+        <p>منيو إلكتروني سريع وسهل… اختار اللي نفسك فيه وشوف السعر فورًا.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">استعرض المنيو <span>↓</span></a>
+          <a class="btn btn-glass" href="https://maps.app.goo.gl/XaCGRaV3Dd72LZtA6" target="_blank" rel="noopener">📍 موقعنا</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-actions container" aria-label="روابط سريعة">
+      <a href="#menu" class="quick-card"><span>🍨</span><div><b>المنيو</b><small>كل الأصناف والأسعار</small></div></a>
+      <a href="https://maps.app.goo.gl/XaCGRaV3Dd72LZtA6" target="_blank" rel="noopener" class="quick-card"><span>📍</span><div><b>موقعنا</b><small>افتح Google Maps</small></div></a>
+      <a href="https://www.facebook.com/share/1CeA5bzuA8/" target="_blank" rel="noopener" class="quick-card"><span>f</span><div><b>Facebook</b><small>تابع الصفحة</small></div></a>
+    </section>
+
+    <section class="menu-section container" id="menu">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">OUR MENU</span>
+          <h2>اختار طلبك</h2>
+        </div>
+        <span class="item-count" id="itemCount"></span>
+      </div>
+
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="ابحث عن صنف…" autocomplete="off" aria-label="البحث في المنيو">
+        <button id="clearSearch" class="clear-search" type="button" aria-label="مسح البحث">×</button>
+      </div>
+      <p class="search-empty" id="searchEmpty" hidden>لا توجد نتائج مطابقة</p>
+
+      <nav class="category-nav" id="categoryNav" aria-label="أقسام المنيو">
+        <button class="category-tab active" data-category="all">الكل</button>
+        <button class="category-tab" data-category="ice">آيس كريم</button>
+        <button class="category-tab" data-category="rice">أرز باللبن</button>
+        <button class="category-tab" data-category="family">الحجم العائلي</button>
+        <button class="category-tab" data-category="fruit">أرز فواكه</button>
+        <button class="category-tab" data-category="extras">الإضافات</button>
+      </nav>
+
+      <div id="menuGrid" class="menu-grid"></div>
+    </section>
+
+    <section class="notice-section container">
+      <div class="notice-card">
+        <div class="notice-mark">!</div>
+        <div>
+          <h3>تنبيه هام</h3>
+          <p>ليس لنا فروع اخرى في بحري او في مكان اخر لعلم عملائنا الكرام لسنا مسؤولين عن اي منتج اخر او اي عربة عيسى صغيرة بجانب الصعيدي ليس تابع لنا دون العلامة المسجلة برقم : <strong>176507</strong>.</p>
+        </div>
+      </div>
+      <div class="service-note">بدون خدمة على الترابيزة او اي رسوم اضافية</div>
+    </section>
+
+    <section class="gallery-section container" aria-label="صور من جيلاتى الصعيدي">
+      <div class="section-heading compact">
+        <div><span class="section-kicker">FROM OUR PLACE</span><h2>من أجواء المكان</h2></div>
+      </div>
+      <div class="gallery-grid">
+        <img src="assets/store.jpg" alt="واجهة جيلاتى الصعيدي" loading="lazy">
+        <img src="assets/rice-variety.jpg" alt="تشكيلة من أطباق جيلاتى الصعيدي" loading="lazy">
+        <img src="assets/rice-honey.jpg" alt="طبق أرز باللبن بالعسل" loading="lazy">
+        <img src="assets/ice-cream.jpg" alt="تشكيلة آيس كريم من جيلاتى الصعيدي" loading="lazy">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="شعار جيلاتى الصعيدي">
+        <h2>جيلاتى الصعيدي</h2>
+        <p>16 طريق الجيش، السيالة شرق، الجمرك، محافظة الإسكندرية.</p>
+      </div>
+      <div class="footer-links">
+        <h3>تواصل وموقع</h3>
+        <a href="https://maps.app.goo.gl/XaCGRaV3Dd72LZtA6" target="_blank" rel="noopener">📍 افتح الموقع على Google Maps</a>
+        <a href="https://www.facebook.com/share/1CeA5bzuA8/" target="_blank" rel="noopener">f صفحة Facebook</a>
+      </div>
+      <div class="developer">
+        <span class="dev-label">DEVELOPED BY</span>
+        <h3>كاظم صلاح</h3>
+        <a href="mailto:kazemsalah77@gmail.com">kazemsalah77@gmail.com</a>
+        <a href="tel:01115116456">01115116456</a>
+        <a href="https://wa.me/201115116456" target="_blank" rel="noopener">WhatsApp المطور</a>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <span>© <span id="year"></span> جيلاتى الصعيدي</span>
+      <span>Digital Menu</span>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="العودة لأعلى الصفحة">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
