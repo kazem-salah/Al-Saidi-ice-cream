@@ -1,6 +1,6 @@
 const menuData = [
   {
-    id:'ice', title:'آيس كريم', subtitle:'اختيارات الآيس كريم', image:'assets/ice-cream.jpg',
+    id:'ice', title:'آيس كريم', subtitle:'اختيارات الآيس كريم', image:'ice-cream.jpg',
     items:[
       ['بسكوتة كونو وسط',40],
       ['بسكوتة كونو الصعيدي',55],
@@ -12,7 +12,7 @@ const menuData = [
     ]
   },
   {
-    id:'family', title:'الحجم العائلي', subtitle:'عبوات وأحجام عائلية', image:'assets/ice-cream.jpg',
+    id:'family', title:'الحجم العائلي', subtitle:'عبوات وأحجام عائلية', image:'ice-cream.jpg',
     items:[
       ['علبة عائلي صغير',150],
       ['علبة عائلي وسط',180],
@@ -22,7 +22,7 @@ const menuData = [
     ]
   },
   {
-    id:'rice', title:'ارز باللبن', subtitle:'اختيارات أرز باللبن', image:'assets/rice-honey.jpg',
+    id:'rice', title:'ارز باللبن', subtitle:'اختيارات أرز باللبن', image:'rice-honey.jpg',
     items:[
       ['ارز سادة',30],
       ['ارز ايس',50],
@@ -40,7 +40,7 @@ const menuData = [
     ]
   },
   {
-    id:'fruit', title:'ارز فواكه', subtitle:'كل الاختيارات بسعر موحد', image:'assets/rice-variety.jpg',
+    id:'fruit', title:'ارز فواكه', subtitle:'كل الاختيارات بسعر موحد', image:'rice-variety.jpg',
     items:[
       ['ارز موز',65],
       ['ارز مانجو',65],
