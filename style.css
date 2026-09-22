@@ -26,7 +26,7 @@ button,input{font:inherit}
 .map-mini{display:inline-flex;align-items:center;gap:7px;border:1px solid rgba(255,255,255,.18);padding:8px 12px;border-radius:999px;font-size:13px;transition:.2s}
 .map-mini:hover{background:#fff;color:var(--dark)}
 .hero{position:relative;min-height:620px;display:grid;align-items:end;overflow:hidden;background:#111;color:#fff}
-.hero-media{position:absolute;inset:0;background-image:url('assets/ice-cream.jpg');background-size:cover;background-position:center 55%;transform:scale(1.02)}
+.hero-media{position:absolute;inset:0;background-image:url('ice-cream.jpg');background-size:cover;background-position:center 55%;transform:scale(1.02)}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.78) 0%,rgba(0,0,0,.45) 45%,rgba(0,0,0,.16) 100%),linear-gradient(0deg,rgba(0,0,0,.65),transparent 50%)}
 .hero-content{position:relative;padding:90px 0 70px}
 .eyebrow,.section-kicker,.dev-label{letter-spacing:.14em;font-size:11px;font-weight:800;color:#f8c93b}
